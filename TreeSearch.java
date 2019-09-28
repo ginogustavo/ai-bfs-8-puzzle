@@ -133,6 +133,7 @@ public class TreeSearch{
         return newNode;
     }
 
+	//Test the goal by comparing the given state(array) with the target
     public boolean goalTest(int[][] nodeState){
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
